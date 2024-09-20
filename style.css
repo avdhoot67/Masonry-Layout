@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #242223;
+}
+/* @media(max-width:300px){
+    .ist{
+        column-count: 1;
+    }
+}
+@media(min-width:300px) and (max-width:600px){
+    .list{
+        column-count: 2;
+    }
+} */
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+.nav-logo{
+    width: 35px;
+    height: 35px;
+    margin-left:0.5rem;
+    border-radius: 50%;  
+}
+.logo{
+    width: 100%;
+    height: 100%;
+    background-image: url(Pinterest_logo_png_image-removebg-preview.png);
+    background-size:cover;
+    background-position: center;
+}
+
+.border{
+    border:1.3px solid transparent;
+}
+.border:hover{
+    color: black;
+    background-color: white;
+    border:3px solid white;
+}
+.nav-logo .border:hover{
+    border:3px solid white;
+    border-radius: 50%;
+}
+
+/* box2   */
+
+.nav-options{
+    padding: 8px;          /*so that there is some space b/w content and border */
+    margin-right:8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80%;
+}
+
+.add-first{
+    color: #CCCCCC;
+    font-size: 1rem;
+    margin-left: 15px;
+    height: 4 rem;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+/** box3 **/
+
+.nav-search{
+    width: 620px;
+    height: 45px;
+    display: flex;
+    justify-content:flex-start;
+    border-radius: 30px;
+    align-items: center;  
+    background-color: white;
+    box-sizing: border-box;
+}
+.search-icon{
+    width: 50px;
+    color: black;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-input {
+    width: 100%;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center; 
+}
+.search-input input{
+    height: 100%;
+    width: 100%; 
+    padding: 0 10px; 
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.nav-search:hover{
+    border: 3px solid rgb(141, 238, 223);
+}
+
+/* box4 */
+.nav-language{
+    width: 65px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.language-logo{
+    width: 23px;
+    height:16.2px;
+    background-image: url(united-states.png);
+    background-size: cover;
+}
+.language-select{
+    width: 40px;
+    height: 20px;
+    font-size:0.8rem;
+    font-weight: 600;
+    background-color: #0f1111;
+    color: white;
+    border: none;
+}
+
+.nav-notifications{
+    
+    font-size: 1.5em;
+    padding: 8px;
+}
+.nav-rightend{  
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-rightend i{
+    font-size: 1.5em;
+    padding: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5px;
+}
+.nav-rightend .border:hover{
+    border:3px solid white;
+    border-radius: 50%;
+}
+
+.nav-user{  
+   
+    font-size: 1.5em;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list img{
+    width: 100%;
+    margin-bottom: 1em;
+    border-radius: 1em;
+}
+
+.list{
+    /* column-count: 3; */
+    columns: 300px;
+}
